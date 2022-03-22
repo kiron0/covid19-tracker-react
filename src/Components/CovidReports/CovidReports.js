@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CovidReport from '../CovidReport/CovidReport';
+import logo from '../CovidReports/images/covid19.png'
 import './CovidReports.css'
 
 const CovidReports = () => {
@@ -14,7 +15,7 @@ const CovidReports = () => {
 
     return (
         <div>
-            <h1>Covid 19 Tracker</h1>
+            <img src={logo} alt="" />
             <div className='report-container'>
             {
                 covidReports.map(covidReport => <CovidReport
