@@ -2,7 +2,7 @@ import React from 'react';
 import './CovidReport.css'
 
 const CovidReport = (props) => {
-    // console.log(props)
+    // console.log(props.covid)
     const {Country, NewConfirmed, TotalConfirmed, NewDeaths, TotalDeaths, NewRecovered, TotalRecovered, Date} = props.covid;
     return (
         <div className='report'>
