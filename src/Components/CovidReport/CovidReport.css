@@ -1,0 +1,24 @@
+.report{
+    width: 390px;
+    box-shadow: var(--box-shadow);
+    border-radius: .9rem;
+    padding: 1rem;
+}
+
+.recovered{
+    color: green;
+}
+
+.deaths{
+    color: red;
+}
+
+.covid-info{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 490px){
+    .report{
+        width: 300px;
+    }
+}
